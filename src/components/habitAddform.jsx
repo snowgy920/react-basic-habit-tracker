@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 
-class HabitAddform extends Component {
+class HabitAddform extends PureComponent {
   inputRef = React.createRef();
 
   onSubmit = (event) => {
